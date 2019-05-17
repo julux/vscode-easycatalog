@@ -16,6 +16,19 @@
 		"Snippets"
 	],
 	"contributes": {
+        	"languages": [
+			{
+			"id": "ecc",
+			"aliases": [
+			    "ECC",
+			    "ecc"
+			],
+			"extensions": [
+			    ".ecc",
+			    ".ECC"
+			]
+			}
+       		],	
 	},
 	"license": "MIT",
 	"bugs": {
