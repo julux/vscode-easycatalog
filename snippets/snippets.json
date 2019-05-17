@@ -1,0 +1,12 @@
+{
+  "AND": {
+    "body": "AND(${1:field},${2:field})$0",
+    "description": "EasyCatalog AND(field1,field2)",
+    "prefix": "AND"
+    },
+  "APPLYXSLT": {
+    "body": "APPLYXSLT(${1:Namelist},'${2:format}.xsl')$0",
+    "description": "EasyCatalog APPLYXSLT(Namelist,'format.xsl')",
+    "prefix": "APPLYXSLT"
+    }
+}
