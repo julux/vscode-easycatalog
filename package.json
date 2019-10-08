@@ -32,7 +32,7 @@
 		"snippets": 	[
 				{
 				"language": "easycatalog",
-				"path": "./snippets-easycatalog.json"
+				"path": "./snippets/snippets-easycatalog.json"
 				}
 				]
 			},
