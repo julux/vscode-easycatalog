@@ -18,12 +18,11 @@
 	"contributes": {
 		"languages": [
 				{
-			  	"id": "easycatalog",
+			  	"id": "ecc",
 			 	 "extensions": [
 						".ecc"
 			  			],
 			 	 "aliases": [
-						"ecc",
 						"Easycatalog"
 			  			],
 			  	"configuration": "./language-configuration.json"
@@ -31,7 +30,7 @@
 		 		 ],
 		"snippets": 	[
 				{
-				"language": "easycatalog",
+				"language": "Easycatalog",
 				"path": "./snippets/snippets-easycatalog.json"
 				}
 				]
