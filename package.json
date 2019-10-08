@@ -1,35 +1,41 @@
 {
-	"name": "easycatalog-snippets",
-	"displayName": "Easycatalog Snippets",
-	"description": "Full Easycatalog tags with Snippets",
-	"version": "1.0",
+	"name": "easycatalog_ecc",
+	"displayName": "Easycatalog Language",
+	"description": "Easycatalog language extension and snippets",
+	"version": "0.0.1",
 	"publisher": "julux",
-	"icon": "images/icon.png",
 	"engines": {
-		"vscode": "^1.9.1"
+		"vscode": "^1.28.0"
 	},
 	"galleryBanner": {
 		"color": "#1E81C1",
 		"theme": "light"
-	},
+	},	
 	"categories": [
-		"Snippets"
+		"Snippets",
+		"Programming Languages"
 	],
 	"contributes": {
-        	"languages": [
-			{
-			"id": "ecc",
-			"aliases": [
-			    "ECC",
-			    "ecc"
-			],
-			"extensions": [
-			    ".ecc",
-			    ".ECC"
-			]
-			}
-       		],	
-	},
+		"languages": [
+				{
+			  	"id": "easycatalog",
+			 	 "extensions": [
+						".ecc"
+			  			],
+			 	 "aliases": [
+						"ecc",
+						"Easycatalog"
+			  			],
+			  	"configuration": "./language-configuration.json"
+				}
+		 		 ],
+		"snippets": 	[
+				{
+				"language": "easycatalog",
+				"path": "./snippets-easycatalog.json"
+				}
+				]
+			},
 	"license": "MIT",
 	"bugs": {
 			"url": "https://github.com/julux/vscode-easycatalog/issues"
@@ -39,4 +45,6 @@
 			"url": "https://github.com/julux/vscode-easycatalog.git"
 	},
 	"homepage": "https://github.com/julux/vscode-easycatalog/blob/master/README.md"
+	
+	
 }
