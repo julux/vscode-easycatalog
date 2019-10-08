@@ -1,7 +1,7 @@
 {
-	"name": "easycatalog_ecc",
+	"name": "Easycatalog",
 	"displayName": "Easycatalog Language",
-	"description": "Easycatalog language extension and snippets",
+	"description": "Easycatalog language highlight and snippets to write .ecc extension files to personalied field",
 	"version": "0.0.1",
 	"publisher": "julux",
 	"engines": {
