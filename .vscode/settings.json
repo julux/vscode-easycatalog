@@ -1,0 +1,8 @@
+{
+	"editor.insertSpaces": false,
+	"files.associations": {
+		"*.ecc": "easycatalog",
+		"*.easycat": "easycatalog",
+		"*.easycatalog": "easycatalog"
+    }
+}
